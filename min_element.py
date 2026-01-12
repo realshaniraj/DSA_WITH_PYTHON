@@ -10,12 +10,16 @@ Finally, the program prints the smallest element in the array.
 
 The time complexity of this program is O(n), where n is the number of elements in the array.
 
-arr =[10,22,3,43,18]
+n = int(input("enter number of elements: "))
 
-min_element=arr[0]
+arr = []
+for i in range(n):
+    arr.append(int(input()))
+
+min_element = arr[0]
+
 for i in arr:
-  if i < min_element:
-    min_element=i
+    if i < min_element:
+        min_element = i
 
-
-print("smallest element=",min_element)
+print("smallest element =", min_element)
