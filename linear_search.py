@@ -6,9 +6,9 @@ found = False
 for i in arr:
     if i == key:
         found = True
-        break
+        break 
 
 if found:
-    print("Element found")
+    print("element found")
 else:
-    print("Element not found")
+    print("element not found")
