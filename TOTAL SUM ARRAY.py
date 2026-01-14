@@ -17,4 +17,4 @@ total=0
 for i in range(n):
    total +=arr[i]
 
-print("sum=",total)
+print("sum",total)
