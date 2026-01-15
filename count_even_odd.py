@@ -1,4 +1,8 @@
-arr = [10, 2, 3, 25, 18]
+n = int(input("enter number of elements: "))
+
+arr = []
+for i in range(n):
+    arr.append(int(input()))
 
 even = 0
 odd = 0
@@ -11,3 +15,4 @@ for i in arr:
 
 print("even count =", even)
 print("odd count =", odd)
+
